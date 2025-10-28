@@ -82,7 +82,48 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+#### Conflict 1: src/server.js
+- **Issue**: Both branches introduced different routes for handling API requests.
+- **Resolution**: Combined both versions and ensured backward compatibility.
+- **Strategy**: Merged endpoint logic and added route comments for clarity.
+- **Difficulty**: Medium
+- **Time**: 15 minutes
+
+#### Conflict 2: src/logger.js
+- **Issue**: Logging formats differed (JSON vs plain text).
+- **Resolution**: Used JSON format with a flag for human-readable mode.
+- **Strategy**: Implemented `formatLogs()` function to support both styles.
+- **Difficulty**: Easy
+- **Time**: 8 minutes
+
+#### Conflict 3: package.json
+- **Issue**: Conflicting dependencies and version mismatches.
+- **Resolution**: Manually merged dependency lists and reinstalled packages.
+- **Strategy**: Chose latest compatible versions and re-tested build.
+- **Difficulty**: Hard
+- **Time**: 20 minutes
+
+#### Conflict 4: tests/api.test.js
+- **Issue**: Duplicate test cases with different expected outputs.
+- **Resolution**: Combined tests logically and adjusted assertions.
+- **Strategy**: Grouped related tests under `describe()` blocks.
+- **Difficulty**: Medium
+- **Time**: 10 minutes
+
+#### Conflict 5: README.md
+- **Issue**: Different setup instructions and branch names.
+- **Resolution**: Merged both, clarified environment setup for dev and prod.
+- **Strategy**: Added consistent formatting and updated command examples.
+- **Difficulty**: Easy
+- **Time**: 10 minutes
+
+#### Conflict 6: docs/changelog.md
+- **Issue**: Both branches had separate changelog entries for the same version.
+- **Resolution**: Combined entries chronologically under a unified format.
+- **Strategy**: Created a single `CHANGELOG.md` for clarity.
+- **Difficulty**: Easy
+- **Time**: 5 minutes
+
 
 ## Most Challenging Parts
 
