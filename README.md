@@ -12,7 +12,6 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 ## Features
 
 ### Core Features
-=======
 **EXPERIMENTAL BUILD** - Advanced CI/CD configuration management with AI integration.
 
 ## Project Status
@@ -29,7 +28,6 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 - 🎯 Chaos engineering tools
 
 ## Legacy Features
->>>>>>> conflict-simulator
 - Automated deployment scripts
 - Real-time monitoring
 - Configuration management
@@ -90,5 +88,4 @@ See `/docs` folder and `/docs/ai-integration.md`
 ## License
 MIT License
 
-## FAQ
 ## FAQ
